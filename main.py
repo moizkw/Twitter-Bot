@@ -2,10 +2,10 @@ import tweepy
 from Yahoo import gainers, losers, most_active, earnings_date, world_indices
 
 # Authenticate to Twitter (CONFIDENTIAL)
-consumer_key = '' 
-consumer_secret = '' 
-access_token = '' 
-access_token_secret = ''
+consumer_key = 'XXX' 
+consumer_secret = 'XXX' 
+access_token = 'XXX' 
+access_token_secret = 'XXX'
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret) 
 auth.set_access_token(access_token, access_token_secret)
