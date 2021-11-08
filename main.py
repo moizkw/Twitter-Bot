@@ -2,7 +2,7 @@ import tweepy
 from Yahoo import gainers, losers, most_active, earnings_date, world_indices
 
 def main():
-    # Authenticate to Twitter
+    # Authenticate to Twitter (CONFIDENTIAL Information)
     consumer_key = 'XXX' 
     consumer_secret = 'XXX' 
     access_token = 'XXX' 
